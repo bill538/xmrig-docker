@@ -20,7 +20,5 @@ docker run -t -i -d -v /path/to/config/directory:/app/etc -e XMRIG_JSON_CONFIG_P
 ### Donations
 If this image helped you mine Monero, please feel free to send a donation my way!
 
-* XMR: `43FtckLEn9BSWP6msnrRNpcZUWVGrr47WBZ7PSHcyF44HFhaRoLmRZK4kx7TFh3Ryh6r3faNiQxNQT6BL1AuiZoEDrNsuum`
-* BTC: `37uLtQRwoMwgNMXaYgPYF5WXWUYTZ5mavt`
-* BCH: `1NjJhGJosLAeTSzPoM3544g8y3tVPvyAr1`
- 
+* XMR: `45gNXgxD11P3KwJKqErWyTHH8MM3VJogCDbHs7jJDYytNzk7QCbDKj5S2pE8x7LLMNSPpFyptWyV8jUrgcK8snk7MtdNPg7`
+
