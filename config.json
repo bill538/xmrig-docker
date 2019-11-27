@@ -5,7 +5,6 @@
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": null,
-    "donate-level": 0,
     "log-file": null,
     "print-time": 60,
     "retries": 5,
@@ -13,13 +12,28 @@
     "safe": false,
     "syslog": false,
     "threads": null,
+    "donate-level": 0,
+    "opencl": false,
+    "cuda": false,
+    "cpu": {
+      "enabled": true,
+      "huge-pages": true,
+      "hw-aes": null,
+      "priority": null,
+      "intensity": 2,
+      "affinity": -1,
+      "asm": true,
+      "memory-pool": true,
+      "max-threads-hint": 50
+    },
     "pools": [
         {
-            "url": "mine.xmrpool.net:7777",
-            "user": "43FtckLEn9BSWP6msnrRNpcZUWVGrr47WBZ7PSHcyF44HFhaRoLmRZK4kx7TFh3Ryh6r3faNiQxNQT6BL1AuiZoEDrNsuum",
-            "pass": "workername",
+            "coin": "monero",
+            "url": "ca.minexmr.com:6666",
+            "user": "45gNXgxD11P3KwJKqErWyTHH8MM3VJogCDbHs7jJDYytNzk7QCbDKj5S2pE8x7LLMNSPpFyptWyV8jUrgcK8snk7MtdNPg7.server",
             "keepalive": true,
-            "nicehash": false
+            "tls": true
         }
     ]
+
 }
